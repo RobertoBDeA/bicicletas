@@ -1,0 +1,111 @@
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  color: green;
+  text-shadow: 2px 2px 3px gray;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+  padding: 20px ;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: grey;
+}
+
+.anuncio {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  padding: 0 auto;
+}
+
+body {
+  background-color: #BBBBBB; 
+}
+
+article {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.texto-citado {
+  font-style: italic;
+  font-size: 20px;
+}
+
+header {
+  background: #9c9c9c;
+  background: -moz-linear-gradient(top, #BBBBBB 0%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #BBBBBB 0%,#FFFFFF 100%);
+}
+
+.titulo {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #444444;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  paddding: 10px;
+  display: inline-block;
+  color: white;
+}
+
+nav .seleccionado a {
+ background-color: #00A108; 
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 960px;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+}
+
+.labdoo {
+  float: right;
+}
+
+article > h2, .anuncio > h3 {
+  margin: 0 auto;
+}
+
+article > h2 {
+  background-image: url('../imagenes/icono.png');
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  margin: 1px solid black;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px ;
+}
+
+td {
+  border: 1px solid black;
+}
